@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seohyeon's travel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <div id="logo">
+        <a href="index.html">
+          <h1>travel diary</h1>
+        </a>
+      </div>
+      <nav>
+        <ul id="topMenu">
+          <li><a href="#">국내 여행 <span>▼</span></a>
+            <ul>
+              <li><a href="#">제주</a></li>
+              <li><a href="#">가평</a></li>
+              <li><a href="#">전주</a></li>
+              <li><a href="#">강릉</a></li>
+            </ul>
+          </li>
+          <li><a href="#">해외 여행 <span>▼</span></a>
+            <ul>
+              <li><a href="#">도쿄</a></li>
+              <li><a href="#">블라디보스톡</a></li>
+            </ul>
+          </li>
+          <li><a href="#">가고 싶은 곳 <span>▼</span></a>
+            <ul>
+              <li><a href="#">부산</a></li>
+              <li><a href="#">LA</a></li>
+            </ul>
+          </li>
+          <li><a href="#">방명록</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="slideShow">
+      <div id="slides">
+        <img src="myImages/jeju.jpg" alt="">
+        <img src="myImages/gapyeong.jpg" alt="">
+        <img src="myImages/jeonju.jpg" alt="">
+        <img src="myImages/gangreung.jpg" alt="">
+        <img src="myImages/tokyo.jpg" alt="">
+        <img src="myImages/vladivostok.jpg" alt="">
+        <!--<button id="prev">&lang;</button>
+        <button id="next">&rang;</button>-->
+      </div>
+    </div>
+    <div id="contents">
+      <div id="tabMenu">
+        <input type="radio" id="tab1" name="tabs" checked>
+        <label for="tab1">방명록</label>
+        <input type="radio" id="tab2" name="tabs">
+        <label for="tab2">갤러리</label>
+        <input type="radio" id="tab3" name="tabs">
+        <label for="tab3">최근 게시글</label>
+
+        <div id="guest" class="tabContent">
+          <h2>최근에 등록된 방명록 내용입니다.</h2>
+          <ul>
+            <li><strong>정*영  </strong>너무나 완벽했던 강릉 여행!</li>
+            <li><strong>김*빈  </strong>메롱</li>
+            <li><strong>정*호  </strong>또 여행가고 싶다! 코로나 물러가라!</li>
+          </ul>
+        </div>
+        <div id="photo" class="tabContent">
+          <h2>최근에 등록된 사진입니다.</h2>
+          <ul>
+            <li><img src="myImages/img1.jpg"></li>
+            <li><img src="myImages/img2.jpg"></li>
+            <li><img src="myImages/img3.jpg"></li>
+          </ul>
+        </div>
+        <div id="new" class="tabContent">
+          <h2>최근에 등록된 게시글입니다.</h2>
+          <ul>
+            <li><strong>전주 여행  </strong>2021년 6월 23일에 작성한 글입니다.</li>
+            <li><strong>강릉 여행  </strong>2021년 6월 30일에 작성한 글입니다.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="links">
+        <ul>
+          <li>
+            <a href="#">
+              <span id="quick-icon1"></span>
+                <p>게시글</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span id="quick-icon2"></span>
+              <p>갤러리</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span id="quick-icon3"></span>
+              <p>방명록</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div id="bottomMenu">
+        <ul>
+          <li><a href="#">프로필</a></li>
+          <li><a href="#">체크리스트</a></li>
+          <li><a href="#">포토로그</a></li>
+        </ul>
+        <div id="sns">
+          <ul>
+            <li><a href="#"><img src="images/sns-1.png"></a></li>
+            <li><a href="#"><img src="images/sns-2.png"></a></li>
+           <li><a href="#"><img src="images/sns-3.png"></a></li>
+         </ul>
+        </div>
+      </div>
+      <div id="contact">
+        <p>(email) *****@gmail.com  /  (phone) 010-****-****</p>
+      </div>
+    </footer>
+  </div>
+  <script src="slideshow.js"></script>
+</body>
+</html>
