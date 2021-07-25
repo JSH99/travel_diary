@@ -8,4 +8,4 @@ code reference. Do it! 한 권으로 끝내는 웹 기본 교과서 HTML+CSS+자
 
 
 ### ⦁Result Screen
-![image](https://user-images.githubusercontent.com/63582234/126908542-78284a76-26cc-4486-97c5-8539b3412488.png)
+![image](https://user-images.githubusercontent.com/63582234/126908580-654f9dbf-9ab2-4540-9e00-54d04c29e75d.png)
